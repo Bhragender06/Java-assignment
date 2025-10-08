@@ -62,7 +62,8 @@ class Main{
         System.out.println("Multiply three ints: " + obj.multiply(2, 3, 4));
         System.out.println("Divide two ints: " + obj.divide(10, 2));
         System.out.println("Divide two doubles: " + obj.divide(10.0, 2.0));
-        System.out.println("Divide with zero: " + obj.divide(10, 2));
+        System.out.println("Divide with zero: " + obj.divide(10, 0));
     }
 
 }
+
